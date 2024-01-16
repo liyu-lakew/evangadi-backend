@@ -8,7 +8,8 @@
     
 
 // })
-module.exports=dbConnection.promise()
+// module.exports=dbConnection.promise()
+
 const mysql2 = require('mysql2')
 const dbConnection = mysql2.createPool({
     user:process.env.USER,
